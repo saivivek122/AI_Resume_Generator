@@ -6,7 +6,7 @@ const SkillsForm = ({ data, onChange }) => {
     const addSkill=()=>{
         if(newSkill.trim() && !data.includes(newSkill.trim())){
             onChange([...data,newSkill.trim()]) 
-            setNewSkill("")
+            setNewSkill("") 
         }
     }
     const removeSkill=(indexToRemove)=>{
