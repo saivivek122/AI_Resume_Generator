@@ -8,7 +8,7 @@ const ExperienceForm = ({ data, onChange }) => {
       position: "",
       start_date: "",
       end_date: "",
-      description: "",
+      description: "", 
       is_current: false,
     };
     onChange([...data, newExperience]);
