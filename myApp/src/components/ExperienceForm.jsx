@@ -7,7 +7,7 @@ const ExperienceForm = ({ data, onChange }) => {
       company: "",
       position: "",
       start_date: "",
-      end_date: "",
+      end_date: "", 
       description: "", 
       is_current: false,
     };
