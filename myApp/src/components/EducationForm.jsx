@@ -4,7 +4,7 @@ import React from "react";
 const EducationForm = ({ data, onChange }) => {
   const addEducation = () => {
     const newEducation = {
-      institution: " ",
+      institution: "",
       degree: "",
       field: "",
       graduation_date: "",
