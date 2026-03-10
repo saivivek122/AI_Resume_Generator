@@ -4,7 +4,7 @@ import React from "react";
 const ExperienceForm = ({ data, onChange }) => {
   const addExperience = () => {
     const newExperience = {
-      company: " ",
+      company: "",
       position: "",
       start_date: "",
       end_date: "", 
